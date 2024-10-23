@@ -1,0 +1,367 @@
+html,
+body {
+  margin: 0;
+  background-color: #212529;
+
+}
+
+.backgroud img {
+  width: 100%;
+  height: 618px;
+}
+
+/* Estilos para el menú */
+
+nav {
+  background: #6f5191; /* Color  */
+  color: white;
+  padding: 10px;
+  margin-top: 1px;
+  display: flex;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  flex: 1;
+}
+
+li { background-color: #363636;
+  border: #363636 2px solid;
+  display: inline;
+  margin-right: 15px;
+  font-family: Vegur, "PT Sans", Verdana, sans-serif;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  padding: 0 4px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(65, 8, 104);
+  color: #6f5191;
+}
+
+/*logo est*/
+.navbar-logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70px;
+}
+.navbar-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.La-grid-layout {
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  margin-left: 62px;
+}
+
+.caja {
+  height: 24px;
+  display: inline;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-item a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100px;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.botones {
+  background-color: none;
+  color: #6f5191;
+  flex: auto;
+}
+h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #6f5191;
+}
+
+section {
+  font-family: Vegur, "PT Sans", Verdana, sans-serif;
+}
+.contenedor {
+  text-align: center;
+}
+
+/* Estilos para la imagen */
+.imagen {
+  width: 1000; /* Ancho de la imagen */
+  height: 500px; /* Altura ajustada automáticamente */
+}
+
+
+/* Estilos para el texto */
+.texto {
+  font-size: 18px; /* Tamaño de fuente */
+  margin-top: 20px; /* Espacio superior */
+  font-family: "PT Sans", Verdana, sans-serif;
+  padding: 20px 200px;
+  color: #474747;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* Estilos para el botón */
+.boton {
+  background-color: #6f5191; /* Color de fondo */
+  color: #fff; /* Color de texto */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Borde redondeado */
+  font-size: 18px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+div {
+  vertical-align: text-top;
+}
+
+.Footer {
+  background: #6f5191;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  
+}
+
+.Footer .footer-left,
+.Footer .footer-center,
+.Footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+/*Styles for footer left*/
+.Footer .footer-left {
+  width: 40%;
+  height: 20%;
+  align-content: space-between;
+}
+
+.Footer .footer-company-name {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/*Styles for footer center*/
+.Footer .footer-center {
+  width: 35%;
+}
+
+.Footer .footer-center p {
+  line-height: 20px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+.Footer .footer-center span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer-company-about {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+  color: #ffffff;
+}
+
+/*Styles for footer right*/
+.Footer .footer-right {
+  width: 20%;
+  margin: auto;
+}
+
+.Footer .footer-company-about {
+  line-height: 20px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.Footer .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* titulo:Feature/about */
+
+.box-about {
+  width: 500px;
+  height: 500px;
+  border: 4px solid black;
+  margin: 15px;
+  text-align: center;
+  line-height: 250px;
+  float: left;
+}
+
+.la-grid-layout {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  background-color: #6f5191;
+  padding: 20px;
+  border: 1px solid black;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-bottom: 5px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  font-size: 20px;
+}
+
+.ca {
+  background-image: url("./public/ANDRES.1.jpg");
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 399px;
+  background-size: cover;
+}
+
+.cb {
+  background-image: url("./public/XUXAN.1.jpg");
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 399px;
+  background-size: cover;
+}
+
+.cc {
+  background-image: url("./public/MATEO.1.jpg");
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 399px;
+  background-size: cover;
+}
+
+.cd {
+  background-image: url("./public/ZABALA.1.jpg");
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 399px;
+  background-size: cover;
+}
+
+.ce {
+  background-image: url("./public/CHECHO.1.jpg");
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 399px;
+  background-size: cover;
+}
+
+.cf {
+  background-image: url("./public/JUANJO.1.jpg");
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 399px;
+  background-size: cover;
+}
+
+/* caja flexbox animes */
+
+.grid-layout {
+  display: grid;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.box {
+  margin: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* contact page */
+
+.grid-layout-form {
+display: flex;
+  margin: 10px;
+  padding: 20px;
+  background-color: #6f5191;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.Enviar {
+  background-color: #6f5191; /* Color de fondo */
+  color: #000000; /* Color de texto */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Borde redondeado */
+  font-size: 18px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+
+.backgroud-form {
+  background-color: #6f5191;
+}
+
+.c1 {
+  color: black;
+  font-family: cursive;
+}
+
+.image-form {
+  flex: 0 0 auto;
+  
+}
+
+.logon{
+  float:inline-start;
+  padding: 18px;
+ 
+}
+
+
+.carouselExampleCaptions{
+  color: #6f5191;
+}
+.space{
+  gap: 10px;
+  border-radius: 10%;
+  border: #5a0378 10%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-color: #000000 10%;
+  padding: 5%;
+}
+
+
